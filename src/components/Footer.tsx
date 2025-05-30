@@ -36,17 +36,17 @@ const Footer: React.FC<FooterProps> = ({ t }) => {
             <ul className="space-y-2">
               <li>
                 <a href="#features" className="text-gray-400 hover:text-purple-400 transition-colors">
-                  {t.features}
+                  {t.footer.quickLinks.features}
                 </a>
               </li>
               <li>
                 <a href="#why" className="text-gray-400 hover:text-purple-400 transition-colors">
-                  {t.ourWhy}
+                  {t.footer.quickLinks.why}
                 </a>
               </li>
               <li>
                 <a href="#demo" className="text-gray-400 hover:text-purple-400 transition-colors">
-                  {t.demo}
+                  {t.footer.quickLinks.demo}
                 </a>
               </li>
             </ul>
