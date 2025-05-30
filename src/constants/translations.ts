@@ -89,26 +89,44 @@ export const translations = {
     },
 
     // Demo section
-    demoTitle: 'Coba VoiceCart',
-    demoSubtitle: 'Rasakan kemudahan mencatat belanja dengan teknologi pengenalan suara VoiceCart. Cukup sebutkan nama produk dan harganya.',
-    voiceInput: 'Input Suara',
-    manualInput: 'Input Manual',
-    listening: 'Mendengarkan... Sebutkan nama produk dan harga',
-    tapMicrophone: 'Ketuk mikrofon untuk mulai',
-    productName: 'Nama Produk',
-    price: 'Harga',
-    enterProductName: 'Masukkan nama produk',
-    enterPrice: 'Masukkan harga',
-    addItem: 'Tambah Item',
-    shoppingList: 'Daftar Belanja',
-    items: 'item',
-    total: 'Total',
-    noItems: 'Belum ada item. Tambahkan menggunakan suara atau input manual.',
-    addToCart: 'Tambah ke Keranjang',
-    deleteAll: 'Hapus Semua',
-    cart: 'Keranjang',
-    readyToCheckout: 'Siap untuk checkout',
-    productsInCart: 'produk dalam keranjang',
+    demo: {
+      title: 'Coba VoiceCart',
+      subtitle: 'Rasakan kemudahan mencatat belanja dengan teknologi pengenalan suara VoiceCart. Cukup sebutkan nama produk dan harganya!',
+      voiceInput: 'Input Suara',
+      manualInput: 'Input Manual',
+      listening: 'Mendengarkan...',
+      tapMicrophone: 'Ketuk mikrofon untuk mulai',
+      productName: 'Nama Produk',
+      price: 'Harga',
+      enterProductName: 'Masukkan nama produk',
+      enterPrice: 'Masukkan harga',
+      addToCart: 'Tambah ke Keranjang',
+      cart: 'Keranjang',
+      emptyCart: 'Keranjang masih kosong',
+      emptyCartDesc: 'Tambahkan produk dengan voice atau manual input',
+      deleteAll: 'Hapus Semua',
+      total: 'Total',
+      readyToCheckout: 'Siap untuk checkout',
+      productsInCart: 'produk dalam keranjang',
+      voiceInputTips: {
+        title: 'Tips Input Suara',
+        tips: [
+          'Ucapkan dengan jelas dan tidak terburu-buru',
+          'Format: nama produk diikuti harga dalam kata',
+          'Contoh: "mangga lima puluh ribu"',
+          'Pastikan mikrofon mendapat izin akses'
+        ]
+      },
+      manualInputTips: {
+        title: 'Input Manual',
+        tips: [
+          'Masukkan nama produk dan harga',
+          'Harga dalam format angka seperti 55000',
+          'Tekan Tambah ke Keranjang untuk menyimpan',
+          'Bisa digunakan sebagai backup voice input'
+        ]
+      }
+    },
 
     // Error messages
     retryMessage: 'Maaf, bisa diulangi lebih jelas?',
@@ -135,8 +153,23 @@ export const translations = {
       'Harga dalam format angka seperti 55000',
       'Tekan Tambah ke Keranjang untuk menyimpan',
       'Bisa digunakan sebagai backup voice input'
-    ]
+    ],
+
+    // Footer translations
+    footer: {
+      description: 'Solusi berbasis web yang membantu Anda melacak pengeluaran belanja secara real-time menggunakan suara—tanpa instalasi, tanpa login, tanpa input manual.',
+      quickLinks: {
+        title: 'Link Cepat'
+      },
+      contact: {
+        title: 'Kontak'
+      },
+      copyright: '© 2024 VoiceCart. Hak Cipta Dilindungi.',
+      privacyPolicy: 'Kebijakan Privasi',
+      termsOfService: 'Ketentuan Layanan'
+    }
   },
+  
   en: {
     // Navbar
     features: 'Features',
@@ -225,26 +258,44 @@ export const translations = {
     },
 
     // Demo section
-    demoTitle: 'Try VoiceCart',
-    demoSubtitle: 'Experience the ease of recording shopping with VoiceCart voice recognition technology. Just say the product name and price.',
-    voiceInput: 'Voice Input',
-    manualInput: 'Manual Input',
-    listening: 'Listening... Say product name and price',
-    tapMicrophone: 'Tap the microphone to start',
-    productName: 'Product Name',
-    price: 'Price',
-    enterProductName: 'Enter product name',
-    enterPrice: 'Enter price',
-    addItem: 'Add Item',
-    shoppingList: 'Shopping List',
-    items: 'items',
-    total: 'Total',
-    noItems: 'No items yet. Add some using voice or manual input.',
-    addToCart: 'Add to Cart',
-    deleteAll: 'Delete All',
-    cart: 'Cart',
-    readyToCheckout: 'Ready for checkout',
-    productsInCart: 'products in cart',
+    demo: {
+      title: 'Try VoiceCart',
+      subtitle: 'Experience the ease of recording shopping with VoiceCart voice recognition technology. Just say the product name and price!',
+      voiceInput: 'Voice Input',
+      manualInput: 'Manual Input',
+      listening: 'Listening...',
+      tapMicrophone: 'Tap microphone to start',
+      productName: 'Product Name',
+      price: 'Price',
+      enterProductName: 'Enter product name',
+      enterPrice: 'Enter price',
+      addToCart: 'Add to Cart',
+      cart: 'Cart',
+      emptyCart: 'Cart is empty',
+      emptyCartDesc: 'Add products using voice or manual input',
+      deleteAll: 'Delete All',
+      total: 'Total',
+      readyToCheckout: 'Ready for checkout',
+      productsInCart: 'products in cart',
+      voiceInputTips: {
+        title: 'Voice Input Tips',
+        tips: [
+          'Speak clearly and unhurriedly',
+          'Format: product name followed by price in words',
+          'Example: "apple fifty thousand"',
+          'Ensure microphone has access permission'
+        ]
+      },
+      manualInputTips: {
+        title: 'Manual Input',
+        tips: [
+          'Enter product name and price',
+          'Price in number format like 55000',
+          'Press Add to Cart to save',
+          'Can be used as voice input backup'
+        ]
+      }
+    },
 
     // Error messages
     retryMessage: 'Sorry, could you please repeat more clearly?',
@@ -271,6 +322,20 @@ export const translations = {
       'Price in number format like 55000',
       'Press Add to Cart to save',
       'Can be used as voice input backup'
-    ]
+    ],
+
+    // Footer translations
+    footer: {
+      description: 'A web-based solution that helps you track shopping expenses in real-time using just your voice—no installation, no login, no manual input.',
+      quickLinks: {
+        title: 'Quick Links'
+      },
+      contact: {
+        title: 'Contact'
+      },
+      copyright: '© 2024 VoiceCart. All rights reserved.',
+      privacyPolicy: 'Privacy Policy',
+      termsOfService: 'Terms of Service'
+    }
   }
 };

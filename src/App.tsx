@@ -17,7 +17,7 @@ function App() {
     <div className="min-h-screen bg-gray-950 text-white overflow-hidden">
       <Toaster position="top-right" theme="dark" />
       <Navbar currentLang={currentLang} onToggleLanguage={toggleLanguage} t={t} />
-      <Hero t={t} />2
+      <Hero t={t} />
       <Features t={t} />
       <Background t={t} />
       <Demo t={t} />
