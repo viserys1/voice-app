@@ -421,20 +421,22 @@ const InstructionsFooter: React.FC<{
     }`}>
       <div className="bg-gray-900/40 rounded-xl border border-gray-700/50 p-6">
         <h3 className="text-lg font-semibold text-white mb-4">
-          {t.voiceInputTips}
+          {t.voiceInputTips.title}
         </h3>
         <ul className="space-y-2 text-gray-300">
-          <li>• "Mangga lima puluh ribu"</li>
-          <li>• "Apel dua puluh lima ribu"</li>
-          <li>• "Jeruk tiga puluh ribu"</li>
+          {t.voiceInputTips.tips.map((tip: string, index: number) => (
+            <li key={index}>• {tip}</li>
+          ))}
         </ul>
       </div>
       <div className="bg-gray-900/40 rounded-xl border border-gray-700/50 p-6">
         <h3 className="text-lg font-semibold text-white mb-4">
-          {t.manualInputTips}
+          {t.manualInputTips.title}
         </h3>
         <ul className="space-y-2 text-gray-300">
-          <li>• {t.productsInCart}</li>
+          {t.manualInputTips.tips.map((tip: string, index: number) => (
+            <li key={index}>• {tip}</li>
+          ))}
         </ul>
       </div>
     </div>
